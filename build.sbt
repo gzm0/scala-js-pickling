@@ -5,7 +5,7 @@ val commonSettings = Seq(
     homepage := Some(url("http://scala-js.org/")),
     licenses += ("BSD New", url("https://github.com/scala-js/scala-js/blob/master/LICENSE")),
     scalaVersion := "2.10.3",
-    crossScalaVersions := Seq("2.10.3", "2.11.0-M7"),
+    crossScalaVersions := Seq("2.10.3", "2.11.0-M7", "2.11.0-M8"),
     scalacOptions ++= Seq(
         //"-deprecation", // need to use deprecated things to be compat with 2.10
         "-unchecked",
